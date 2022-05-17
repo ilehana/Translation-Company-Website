@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+
+    <form action="" id="contact"></form>
+    
+<fieldset>
+    <legend>Contact us</legend>
+
+    <br>
+
+    <label for="services">Choose a Service</label><br>
+    <select name="services" id="services">
+        <option value="translation">Translation</option>
+        <option value="localization">Localization</option>
+        <option value="interpretation">Interpretation</option>
+        <option value="gaming">Gaming Services</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="name">Full Name</label><br>
+    <input id="name" type="text" placeholder="i.e. John Doe" required>
+
+    <br>
+    <br>
+
+    <label for="email">Email</label><br>
+    <input id="email" type="email" placeholder="email@example.com" multiple required>
+
+    <br>
+    <br>
+
+    <label for="message">Message</label><br>
+    <textarea name="message" id="message" cols="30" rows="8" wrap="on" placeholder="Let us know all the details!" required></textarea>
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="newsletter" id="newsletter" checked>
+    <label for="newsletter">I want to recieve weekly updates.</label>
+
+    <br>
+    <br>
+
+    <button type="submit" form="contact">Submit</button>
+
+</fieldset>
+
+
+</body>
+</html>
